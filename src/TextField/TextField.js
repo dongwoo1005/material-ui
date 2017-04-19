@@ -42,6 +42,7 @@ const getStyles = (props, context, state) => {
       lineHeight: '12px',
       color: errorColor,
       transition: transitions.easeOut(),
+      float: 'right',
     },
     floatingLabel: {
       color: props.disabled ? disabledTextColor : floatingLabelColor,
